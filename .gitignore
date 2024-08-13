@@ -1,0 +1,77 @@
+*~
+
+# Build working directories
+tools/install
+
+# Build files
+build_openroad.log
+
+# Test working directories
+results
+logs
+reports
+objects
+tech
+
+# Tar archives
+*tar.gz
+run-me*.sh
+vars*.sh
+vars*.tcl
+vars*.gdb
+
+# Common temp files
+pt_shell_command.log
+command.log
+default.svf
+rc_model.bin
+*.tif.gz
+*.def.v
+
+
+# RePlAce deps
+*PORT9.dat
+*POST9.dat
+*POWV9.dat
+# RePlAce debug dir
+plot
+
+# yosys temps
+_tmp_yosys-abc-*
+*_pdn.def
+*.plt
+run.param
+dummy.guide
+macrocell.list
+
+# utdBox router temps
+layer_*.mps
+*.did
+*.log
+*.met
+
+# FlexRoute
+*.opennet
+
+# network
+.nfs*
+
+# core dumps
+core
+core.*
+
+*~
+
+# Python bytecode
+__pycache__/
+
+.vscode/
+.metals/
+perf.data
+perf.data.old
+
+# documentation specific
+mainREADME.md
+build
+.scala-build/
+.bsp/
